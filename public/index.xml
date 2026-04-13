@@ -6,25 +6,6 @@
     <description>Recent content on Akkeyre&#39;s Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 13 Apr 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>A Draft Post with Maths</title>
-      <link>http://localhost:1313/posts/draft-math-post/</link>
-      <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/draft-math-post/</guid>
-      <description>&lt;p&gt;This is a draft post testing math rendering.&lt;/p&gt;
-&lt;h2 id=&#34;inline-math&#34;&gt;Inline Math&lt;/h2&gt;
-&lt;p&gt;Euler&amp;rsquo;s identity: $e^{i\pi} + 1 = 0$&lt;/p&gt;
-&lt;p&gt;The quadratic formula: $x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$&lt;/p&gt;
-&lt;h2 id=&#34;display-math&#34;&gt;Display Math&lt;/h2&gt;
-&lt;p&gt;The Gaussian integral:&lt;/p&gt;
-&lt;p&gt;$$\int_{-\infty}^{\infty} e^{-x^2} , dx = \sqrt{\pi}$$&lt;/p&gt;
-&lt;p&gt;Bayes&amp;rsquo; theorem:&lt;/p&gt;
-&lt;p&gt;$$P(A \mid B) = \frac{P(B \mid A) , P(A)}{P(B)}$$&lt;/p&gt;
-&lt;h2 id=&#34;a-series&#34;&gt;A Series&lt;/h2&gt;
-&lt;p&gt;The Basel problem:&lt;/p&gt;
-&lt;p&gt;$$\sum_{n=1}^{\infty} \frac{1}{n^2} = \frac{\pi^2}{6}$$&lt;/p&gt;</description>
-    </item>
   </channel>
 </rss>
