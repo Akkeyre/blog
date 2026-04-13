@@ -1,0 +1,50 @@
+baseURL = "https://akkeyre.pages.dev/"
+languageCode = "en-us"
+title = "Akkeyre's Blog"
+theme = "PaperMod"
+[pagination]
+  pagerSize = 10
+
+[params]
+  author = "Akkeyre"
+  description = "Writing about things I find interesting"
+  ShowReadingTime = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = false
+  ShowCodeCopyButtons = true
+  ShowToc = true
+  TocOpen = false
+  defaultTheme = "auto"
+
+[params.homeInfoParams]
+  Title = "Hi!"
+  Content = "This is my blog."
+
+[[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/Akkeyre"
+
+[[params.socialIcons]]
+  name = "rss"
+  url = "/index.xml"
+
+[menu]
+  [[menu.main]]
+    name = "Posts"
+    url = "/posts/"
+    weight = 1
+  [[menu.main]]
+    name = "Tags"
+    url = "/tags/"
+    weight = 2
+  [[menu.main]]
+    name = "Search"
+    url = "/search/"
+    weight = 3
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[markup.highlight]
+  style = "github-dark"
+  lineNos = false
