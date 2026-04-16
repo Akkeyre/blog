@@ -7,7 +7,7 @@ title: "Akkeyre"
 This is where I keep my notes and personal ramblings.
 
 <p>
-  <img id="comic" class="comic" data-count="3">
+  <img id="comic" class="comic" data-count="4">
 </p>
 
 <script>
