@@ -1,0 +1,17 @@
+{{ define "main" }}
+<div class="home">
+  <div class="intro">
+    {{ .Content }}
+  </div>
+
+  <div class="posts">
+    <h2>Recent posts</h2>
+    {{ range first 10 (where .Site.RegularPages "Type" "posts") }}
+    <div class="post-item">
+      <a href="{{ .Permalink }}">{{ .Title }}</a>
+      <span class="date">{{ .Date.Format "Jan 2, 2006" }}</span>
+    </div>
+    {{ end }}
+  </div>
+</div>
+{{ end }}
